@@ -1,13 +1,13 @@
 import { nanoid } from 'nanoid'
 import React from 'react'
 import star from '../assets/card/star.svg'
+import { Link } from 'react-router-dom'
 const HorizontalCard = ({title,credit,image,available,about,desc}) => {
     return (
-        <article className='card p-1 border shadow-lg md:max-w-[100%] lg:max-w-[100%]'>
+        <Link to='/course' className='card p-1 border shadow-lg md:max-w-[100%] lg:max-w-[100%]'>
             <img src={image} alt="" className='rounded-xl' />
             <div className='p-2 flex flex-col gap-2'>
-                <h2 className='font-[700] text-[#31225C
-] text-[18px]'>{title}</h2>
+                <h2 className='font-[700] text-[#31225C] text-[18px]'>{title}</h2>
                 <div className='flex gap-4 items-center'>
                     <span className='text-[#31225C] font-[700] text-[14px]'>4.2</span>
                     <ul className='flex items-center gap-1'>
@@ -69,7 +69,7 @@ const HorizontalCard = ({title,credit,image,available,about,desc}) => {
                 </button>
             </div>
 
-        </article>
+        </Link>
     )
 }
 

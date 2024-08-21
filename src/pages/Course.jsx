@@ -97,7 +97,7 @@ const Course = () => {
 
 {/* card */}
 
-<div className='flex border-[1px] rounded-lg bg-white'>
+<div className='flex md:border-[1px] rounded-lg bg-white'>
     <div className='min-w-[250px] filter flex-[.25]  h-[78vh] hidden md:flex flex-col border-r-[1px] overflow-auto no-scrollbar'>
 <div className='flex items-center justify-between p-2 border-b-slate-200 border-b-[1px]'>
     <h2 className='text-[18px] font-bold text-[#31225C]'>Filters</h2>
@@ -112,8 +112,8 @@ const Course = () => {
 
 
     </div>
-    <div className='main px-4 py-2 flex-auto'>
-        <div className='items-center justify-between w-[100%] flex'>
+    <div className='main md:px-4 py-2 flex-auto'>
+        <div className='items-center justify-between w-[100%] flex shadow-lg rounded-lg p-1'>
             
             <p className='text-[13px] text-[#525252] font-[700]'>Showing 1-100 of 2332 results</p>
             <div className='flex items-center gap-4'>

@@ -25,7 +25,7 @@ const Navbar = () => {
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
-        className="inline-block h-5 w-5 stroke-current">
+        className="inline-block h-7 w-7 stroke-current">
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -43,9 +43,9 @@ const Navbar = () => {
     <div className=' bg-[#f4f4f4] gap-2 items-center rounded-[8px] px-4 pl-2 w-96 hidden lg:flex'>
       <select name="" id="" className='bg-transparent p-2 border-r-[1px] border-[#525252] outline-none'>
         <option value="">All</option>
-        <option value="">All</option>
-        <option value="">All</option>
-        <option value="">All</option>
+        <option value="">Math</option>
+        <option value="">English</option>
+        <option value="">Science</option>
       </select>
     <input type="search" placeholder='Search Course' className='bg-transparent outline-none w-full' />
     <button>

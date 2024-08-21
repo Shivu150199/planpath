@@ -2,10 +2,11 @@ import React from 'react'
 import dsImage from '../assets/card/ds.svg'
 import { nanoid } from 'nanoid'
 import star from '../assets/card/star.svg'
+import { Link } from 'react-router-dom'
 
 const VerticalCard = ({title,credit,image,available,about,desc,rating,totalRating}) => {
   return (
-    <article className='p-1 border shadow-lg flex rounded-lg '>
+    <Link to='/course' className='p-1 border shadow-lg flex rounded-lg '>
         <div className='bg-slate-200 rounded-lg '>
 
     <img src={image} alt="" className='rounded h-full w-full object-cover object-left' />
@@ -66,7 +67,7 @@ const VerticalCard = ({title,credit,image,available,about,desc,rating,totalRatin
     
  
     
-    </article>
+    </Link>
   )
 }
 
