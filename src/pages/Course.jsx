@@ -76,9 +76,9 @@ const Course = () => {
   return (
     <section className='px-6 bg-[#fafafa]'>
 <Navigation/>
-<div className='flex  items-center justify-between border-[2px] p-2 rounded-md border-[#525252] md:hidden mt-4'>
-    <input type="text" placeholder='Search for courses, schools, etc.' className='outline-none w-full'/>
-    <img src="src/assets/search.svg" alt="" />
+<div className='flex  items-center justify-between border-[2px] p-2 rounded-md border-[#7d7d7d] md:hidden mt-4'>
+    <input type="text" placeholder='Search for courses, schools, etc.' className='outline-none w-full bg-transparent'/>
+    <img src={search} alt="" />
 </div>
 
 {/* course and filter */}
