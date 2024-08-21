@@ -42,7 +42,7 @@ const SingleCourse = () => {
     <li className='flex items-center gap-2 font-[400] text-[14px]'><div className='w-[4px] h-[4px] rounded-full bg-[#525252]'></div><span>Country :</span> <span>Santa clara</span></li>
 </ul>
 <div>
-<button className='bg-primary text-white rounded-[4px] px-2 font-[500]'>
+<button className='bg-primary text-white rounded-[4px] px-2 py-1 font-[500]'>
     Add to Cart
 </button>
 </div>

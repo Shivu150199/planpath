@@ -113,7 +113,7 @@ const Course = () => {
 
     </div>
     <div className='main md:px-4 py-2 flex-auto'>
-        <div className='items-center justify-between w-[100%] flex shadow-lg rounded-lg p-1'>
+        <div className='items-center justify-between w-[100%] flex border-b-[1px] p-1'>
             
             <p className='text-[13px] text-[#525252] font-[700]'>Showing 1-100 of 2332 results</p>
             <div className='flex items-center gap-4'>

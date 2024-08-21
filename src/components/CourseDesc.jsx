@@ -32,7 +32,7 @@ const TruncatedParagraph = ({ text, limit }) => {
         {isExpanded ? text : truncatedText}
       </span>
       {text.length > limit && (
-        <button onClick={toggleExpansion} className="text-primary">
+        <button onClick={toggleExpansion} className="text-primary font-bold">
           {isExpanded ? 'Show Less' : 'Show More'}
         </button>
       )}
