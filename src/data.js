@@ -1,12 +1,12 @@
 
 import {nanoid} from 'nanoid'
-
+import ds from './assets/card/dataStructure.svg'
 
 export const courseData=[
     {
         id:nanoid(),
         title:'Data Structure',
-        image:'./src/assets/card/dataStructure.svg',
+        image:ds,
         rating:'4.2',
         totalRating:'3022',
         tag:'sceince',
@@ -23,7 +23,7 @@ export const courseData=[
     {
         id:nanoid(),
         title:'English',
-        image:'./src/assets/card/dataStructure.svg',
+        image:ds,
         rating:'4.5',
         totalRating:'3022',
         tag:'sceince',

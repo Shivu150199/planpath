@@ -1,6 +1,6 @@
 import React from 'react'
 import cardImaage from '../assets/card/dataStructure.svg'
-
+import star from '../assets/card/star.svg'
 
 const SingleCourse = () => {
   return (
@@ -15,19 +15,19 @@ const SingleCourse = () => {
         <span className='text-[#31225C] font-[700] text-[14px]'>4.2</span>
         <ul className='flex items-center gap-1'>
             <li>
-                <img src="src/assets/card/star.svg" alt="" />
+                <img src={star} alt="" />
             </li>
             <li>
-                <img src="src/assets/card/star.svg" alt="" />
+                <img src={star} alt="" />
             </li>
             <li>
-                <img src="src/assets/card/star.svg" alt="" />
+                <img src={star} alt="" />
             </li>
             <li>
-                <img src="src/assets/card/star.svg" alt="" />
+                <img src={star} alt="" />
             </li>
             <li>
-                <img src="src/assets/card/star.svg" alt="" />
+                <img src={star} alt="" />
             </li>
         </ul>
         <span className='text-[#31225C] font-[400] text-[14px]'>(3022)</span>

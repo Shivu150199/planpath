@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import search from '../assets/search.svg'
 import { Link } from 'react-router-dom'
 import { Button, Drawer, Radio, Space } from 'antd';
+import logo from '../assets/navbar/plan_path_logo.svg'
+import cart from '../assets/navbar/cart.svg'
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   
@@ -33,7 +35,7 @@ const Navbar = () => {
     </button>
   </div>
   <Link className="" to='/'>
-  <img src="src/assets/navbar/plan path logo.svg" alt="" />
+  <img src={logo} alt="" />
   </Link>
  </div>
 
@@ -54,7 +56,7 @@ const Navbar = () => {
 
   <div className="">
     <Link to='/cart' className='flex  relative p-2 md:hidden'>
-        <img src="src/assets/navbar/cart.svg" alt="" />
+        <img src={cart} alt="" />
         <span className='flex items-center justify-center text-white w-6 h-6 rounded-full absolute top-[-8px] right-[-8px] bg-red-600 border-2 border-white'>0</span>
     </Link>
 <div className='items-center justify-center gap-8 hidden md:flex'>
@@ -63,7 +65,7 @@ const Navbar = () => {
         <li className='font-medium text-sm'><a href="">Pricing</a></li>
         <li>
         <Link to='/cart' className='flex relative p-2'>
-        <img src="src/assets/navbar/cart.svg" alt="cart" />
+        <img src={cart} alt="cart" />
         <span className='flex items-center justify-center text-white w-6 h-6 rounded-full absolute top-[-8px] right-[-8px] bg-red-600 border-2 border-white'>0</span>
     </Link>
         </li>

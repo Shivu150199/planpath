@@ -1,6 +1,7 @@
 import React from 'react'
 import dsImage from '../assets/card/ds.svg'
 import { nanoid } from 'nanoid'
+import star from '../assets/card/star.svg'
 
 const VerticalCard = ({title,credit,image,available,about,desc,rating,totalRating}) => {
   return (
@@ -17,19 +18,19 @@ const VerticalCard = ({title,credit,image,available,about,desc,rating,totalRatin
             <ul className='flex items-center gap-1'>
 
                 <li>
-                    <img src="src/assets/card/star.svg" alt="" />
+                    <img src={star} alt="" />
                 </li>
                 <li>
-                    <img src="src/assets/card/star.svg" alt="" />
+                    <img src={star} alt="" />
                 </li>
                 <li>
-                    <img src="src/assets/card/star.svg" alt="" />
+                    <img src={star} alt="" />
                 </li>
                 <li>
-                    <img src="src/assets/card/star.svg" alt="" />
+                    <img src={star} alt="" />
                 </li>
                 <li>
-                    <img src="src/assets/card/star.svg" alt="" />
+                    <img src={star} alt="" />
                 </li>
             </ul>
             <span className='text-[#31225C] font-[400] text-[14px]'>({totalRating})</span>

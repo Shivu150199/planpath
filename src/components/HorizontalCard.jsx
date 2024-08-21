@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid'
 import React from 'react'
-
+import star from '../assets/card/star.svg'
 const HorizontalCard = ({title,credit,image,available,about,desc}) => {
     return (
         <article className='card p-1 border shadow-lg md:max-w-[100%] lg:max-w-[100%]'>
@@ -12,19 +12,19 @@ const HorizontalCard = ({title,credit,image,available,about,desc}) => {
                     <span className='text-[#31225C] font-[700] text-[14px]'>4.2</span>
                     <ul className='flex items-center gap-1'>
                         <li>
-                            <img src="src/assets/card/star.svg" alt="" />
+                            <img src={star} alt="" />
                         </li>
                         <li>
-                            <img src="src/assets/card/star.svg" alt="" />
+                            <img src={star} alt="" />
                         </li>
                         <li>
-                            <img src="src/assets/card/star.svg" alt="" />
+                            <img src={star} alt="" />
                         </li>
                         <li>
-                            <img src="src/assets/card/star.svg" alt="" />
+                            <img src={star} alt="" />
                         </li>
                         <li>
-                            <img src="src/assets/card/star.svg" alt="" />
+                            <img src={star} alt="" />
                         </li>
                     </ul>
                     <span className='text-[#31225C] font-[400] text-[14px]'>(3022)</span>
