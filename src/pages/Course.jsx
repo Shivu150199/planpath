@@ -9,7 +9,7 @@ import Filter from '../components/Filter'
 import VerticalCard from '../components/VerticalCard'
 import vertical from '../assets/vartical.svg'
 import { courseData } from '../data'
-
+import filterIcon from '../assets/filterIcon.svg'
 import { Button, Drawer, Radio, Space } from 'antd';
 
 
@@ -87,7 +87,7 @@ const Course = () => {
 <h2 className='text-[18px] font-bold text-[#525252
 ]'>Courses(2022)</h2>
 <button onClick={showFilter} className='flex items-center justify-between gap-2 border-primary border-[1px] rounded px-2 py-1'>
-    <img src="src/assets/filterIcon.svg" alt="" />
+    <img src={filterIcon} alt="" />
     <span className='text-primary font-[500] tracking-wide text-[14px]'>
 
     Filter
