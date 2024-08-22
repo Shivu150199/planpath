@@ -4,7 +4,7 @@ import Course from "./pages/Course"
 import Navigation from "./components/Navigation"
 import AboutCourse from "./pages/AboutCourse"
 import Signin from "./pages/Signin"
-import Signup from "./pages/Signup"
+import Signup from "./pages/authorization/Signup"
 import Cart from "./pages/Cart"
 
 
