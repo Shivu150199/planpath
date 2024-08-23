@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { Button, Drawer, Radio, Space } from 'antd';
 import logo from '../assets/navbar/plan_path_logo.svg'
 import cart from '../assets/navbar/cart.svg'
+import select from '../assets/navbar/select.svg'
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   
@@ -41,13 +42,17 @@ const Navbar = () => {
 
 
     <div className=' bg-[#f4f4f4] gap-2 items-center rounded-[8px] px-4 pl-2 w-96 hidden lg:flex'>
-      <select name="" id="" className='bg-transparent p-2 border-r-[1px] border-[#525252] outline-none'>
+      <div className='flex items-center justify-center p-2 border-r-[2px] border-light_gray'>
+      <select name="" id="" className='bg-transparent  outline-none'>
         <option value="">All</option>
         <option value="">Math</option>
         <option value="">English</option>
         <option value="">Science</option>
       </select>
-    <input type="search" placeholder='Search Course' className='bg-transparent outline-none w-full' />
+      <img src={select} alt="" />
+      </div>
+    
+    <input type="search" placeholder='Search Course' className='bg-transparent outline-none w-full pl-2' />
     <button>
     <img src={search} alt="" className='w-[20px] h-[20px]'/>
 

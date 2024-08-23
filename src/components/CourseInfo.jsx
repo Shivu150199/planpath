@@ -12,6 +12,7 @@ const CourseInfo = () => {
   }
   return (
     <div>
+      
 <div className='border-b-[1px] py-2'>
 <h2 className='text-[#31225C] font-[700] text-[22px]'>Course Info</h2>
 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 mt-4'>

@@ -11,7 +11,7 @@ const VerticalCard = ({title,credit,image,available,about,desc,rating,totalRatin
 
     <img src={image} alt="" className='rounded h-full w-full object-cover object-left' />
         </div>
-    <div className='p-2 flex flex-col gap-1'>
+    <div className='p-2 flex flex-col gap-1 w-full'>
         <h2 className='font-[700] text-[#31225C
     ] text-[18px]'>{title}</h2>
         <div className='flex gap-4 items-center'>
