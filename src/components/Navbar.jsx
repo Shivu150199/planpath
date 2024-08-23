@@ -93,6 +93,7 @@ const Navbar = () => {
         open={openMenu}
       
       >
+        <Link to='/register'> sign in</Link>
         <p>Some contents...</p>
         <p>Some contents...</p>
         <p>Some contents...</p>
