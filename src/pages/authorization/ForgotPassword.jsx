@@ -20,7 +20,7 @@ const ForgotPassword = () => {
     }
 
   return (
-    <section className='grid grid-cols-1 p-4 w-[100%] md:grid-cols-2'>
+    <section className='grid grid-cols-1 p-4 md:p-1 w-[100%] md:grid-cols-2'>
    
     <form className=' p-2 flex justify-center mt-10 ' onSubmit={handleSubmit}>
     <div className='flex flex-col gap-2 md:w-[80%] lg:w-[60%] w-full'>

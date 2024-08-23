@@ -26,7 +26,7 @@ setShowPassword(!showPassword)
   }
   console.log(formData)
   return (
-    <section className='grid grid-cols-1 p-4 w-screen md:grid-cols-2'>
+    <section className='grid grid-cols-1 p-4 w-[100%] md:p-1 md:grid-cols-2'>
    
     <form className=' p-2 flex justify-center mt-10 ' onSubmit={handleSubmit}>
     <div className='flex flex-col gap-4 md:w-[80%] lg:w-[60%] w-full'>
